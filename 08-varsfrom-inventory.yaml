@@ -1,0 +1,6 @@
+- name: variables from files
+  hosts: web
+  tasks:
+  - name: Print Course Info
+    ansible.builtin.debug:
+      msg: "Hi, I am learning {{COURSE}} with AWS, Duration is: {{DURATION}}, Trainer: {{TRAINER}}"
