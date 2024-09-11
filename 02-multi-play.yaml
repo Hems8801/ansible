@@ -1,4 +1,4 @@
-- name: PLAY
+- name: PLAY-01
   host: web
   tasks:
   - name: PLAY-01 TASK-01
