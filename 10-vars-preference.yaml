@@ -6,10 +6,10 @@
     DURATION: "120HRS" 
   # vars_files:
   # - vars.yaml
-  vars_prompt:
-  - name: COURSE
-    prompt: Please enter the course name
-    private: false # not confidential   
+  # vars_prompt:
+  # - name: COURSE
+  #   prompt: Please enter the course name
+  #   private: false # not confidential   
   tasks:
   - name: Print Course Info
     vars:  #Play level variables
