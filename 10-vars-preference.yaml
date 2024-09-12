@@ -4,8 +4,8 @@
     COURSE: "DevOps With AWS from play level"
     TRAINER: "SivakumarReddy"
     DURATION: "120HRS" 
-  vars_files:
-  - vars.yaml
+  # vars_files:
+  # - vars.yaml
   vars_prompt:
   - name: COURSE
     prompt: Please enter the course name
