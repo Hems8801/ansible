@@ -13,7 +13,7 @@
   tasks:
   - name: Print Course Info
     vars:  #Play level variables
-      COURSE: "DevOps With AWS from Task level"
+      #COURSE: "DevOps With AWS from Task level"
       TRAINER: "SivakumarReddy"
       DURATION: "120HRS"  
     ansible.builtin.debug:
