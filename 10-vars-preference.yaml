@@ -1,9 +1,9 @@
 - name: variables from files
   hosts: web
-  vars:  #Play level variables
-    COURSE: "DevOps With AWS from play level"
-    TRAINER: "SivakumarReddy"
-    DURATION: "120HRS" 
+  # vars:  #Play level variables
+  #   COURSE: "DevOps With AWS from play level"
+  #   TRAINER: "SivakumarReddy"
+  #   DURATION: "120HRS" 
   # vars_files:
   # - vars.yaml
   # vars_prompt:
