@@ -15,4 +15,4 @@
     TRAINER: "SivakumarReddy"
     DURATION: "120HRS"  
     ansible.builtin.debug:
-      msg: "Hi, I am learning {{COURSE}} with AWS, Duration is: {{DURATION}}, Trainer: {{TRAINER}}"
+      msg: "Hi, I am learning {{COURSE}}"
