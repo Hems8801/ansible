@@ -1,0 +1,24 @@
+- name: variables from files
+  hosts: web
+  vars:  #Play level variables
+    COURSE: "DevOps With AWS from play level"
+    TRAINER: "SivakumarReddy"
+    DURATION: "120HRS" 
+  vars_prompt:
+  - name: COURSE
+    prompt: Please enter the course name
+    private: false # not confidential
+  - name: TRAINER
+    prompt: Please enter the trainer name
+    private: false # not confidential if you want it as confidential just remove private
+  - name: DURATION
+    prompt: Please enter the duration
+    private: false # not confidential     
+  tasks:
+  - name: Print Course Info
+  vars:  #Play level variables
+    COURSE: "DevOps With AWS from Task level"
+    TRAINER: "SivakumarReddy"
+    DURATION: "120HRS"  
+    ansible.builtin.debug:
+      msg: "Hi, I am learning {{COURSE}} with AWS, Duration is: {{DURATION}}, Trainer: {{TRAINER}}"
